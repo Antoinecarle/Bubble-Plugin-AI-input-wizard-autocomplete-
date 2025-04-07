@@ -1,0 +1,17 @@
+{
+    "categories": {
+        "0": "artificial intelligence (AI)",
+        "1": "data (things)",
+        "2": "containers",
+        "3": "productivity"
+    },
+    "data_tracked": true,
+    "data_tracked_description": "Only chat Gpt, but this plugins doesn't store any data",
+    "demo_page": "https://plugindev-43171.bubbleapps.io/version-test/iaautocomplete",
+    "description": "IA Auto Complete - Smart Text Suggestions\n\nTransform any text input in your Bubble app with intelligent, context-aware auto-completion powered by GPT technology.\n\nDemo here : http://plugindev-43171.bubbleapps.io/version-test/iaautocomplete\n\n🚀 Key Features:\n• Real-time suggestions as you type\n• Context-aware completions based on your custom prompts\n• Adaptive style matching with user input\n• Customizable suggestion parameters\n• Modern, responsive UI with smooth animations\n\n🛠️ Technical Highlights:\n• Debounced input handling (500ms)\n• Efficient API usage\n• Keyboard navigation support\n• Loading state management\n• Token usage tracking\n\n💡 Perfect Use Cases:\n• Content writing assistance\n• Form auto-completion\n• Email composition\n• Documentation writing\n• Customer service responses\n• Product descriptions\n• Social media posts\n\n⚙️ Easy Setup:\n1. Drop the element on your page\n2. Configure your OpenAI API key\n3. Set your context prompt\n4. Start typing and get intelligent suggestions!\n\n🎯 Built for:\n• Content creators\n• Customer service teams\n• Marketing professionals\n• Technical writers\n• Anyone needing smart text assistance\n\nMade with ❤️ for the Bubble community",
+    "image": "//meta-q.cdn.bubble.io/f1740514033210x407647637609983550/Copie%20de%20Img%20to%20SVG%20%281%29.gif",
+    "license": "commercial",
+    "link": "https://bubble.io/page?id=plugindev-43171&tab=Design&name=iaautocomplete&type=page",
+    "name": "AI input wizard (autocomplete)",
+    "plugin_instructions": "Quick Start Guide:\n\n1. Initial Setup\n   ▶️ Add your OpenAI API key in the plugin settings\n   ▶️ Configure your context prompt\n   ▶️ Set desired parameters (suggestions count, length, etc.)\n\n2. Basic Implementation\n   ▶️ Drag the element onto your page\n   ▶️ Connect to your workflow\n   ▶️ Start typing to see suggestions\n\n3. Advanced Configuration\n   ▶️ Customize suggestion parameters:\n      - Number of suggestions (1-5)\n      - Minimum characters to trigger (default: 3)\n      - Suggestion length (characters)\n      - Response delay (default: 500ms)\n\n4. Styling Options\n   ▶️ Matches your app's design\n   ▶️ Customizable suggestion display\n   ▶️ Responsive layout support\n\nNeed help? Check our documentation or contact support!"
+}

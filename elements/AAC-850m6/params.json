@@ -1,0 +1,123 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "auto complete",
+    "events": {
+        "ABV": {
+            "caption": "new_data_needed",
+            "name": "inputtext"
+        }
+    },
+    "fields": {
+        "AAE": {
+            "caption": "model",
+            "default_val": "gpt-4o-mini-2024-07-18",
+            "editor": "DynamicValue",
+            "name": "model",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "min_chars",
+            "default_val": 3,
+            "editor": "DynamicValue",
+            "name": "min_chars",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAI": {
+            "caption": "max_suggestions",
+            "default_val": 5,
+            "editor": "DynamicValue",
+            "name": "max_suggestions",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAP": {
+            "caption": "showLogs",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "showLogs",
+            "rank": 4
+        },
+        "ACc": {
+            "caption": "suggestionLength",
+            "default_val": 200,
+            "editor": "DynamicValue",
+            "name": "suggestionLength",
+            "rank": 3,
+            "value": "number"
+        },
+        "ACt": {
+            "caption": "textprompt",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "textprompt",
+            "rank": 5,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "platform_type": "web",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "AAJ": {
+            "caption": "Liste des suggestions",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "suggestions",
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "Suggestion sélectionnée",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "selectedSuggestion",
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "error",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n}"
+            },
+            "name": "error",
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "inputtext",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n}"
+            },
+            "name": "text",
+            "value": "text"
+        },
+        "ACb": {
+            "caption": "inputtext",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "inputtext",
+            "value": "text"
+        },
+        "ACs": {
+            "caption": "totalTokensUsed",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "totalTokensUsed",
+            "value": "number"
+        }
+    }
+}
